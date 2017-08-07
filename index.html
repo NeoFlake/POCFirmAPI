@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8" />
+
+		<title>POC FirmAPI</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+		<script type="text/javascript" src="js/finalScript.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div id="formArea">
+
+				<h1>Trouvez l'entreprise que vous désirez</h1>
+			
+				<form id="searchForm">
+
+					<div id="mainOptionArea">
+
+						<div>
+						
+							<label for="name">Entrez le nom de l'entreprise recherché : </label>
+							<input type="text" name="name" id="name" />
+
+						</div>
+
+					</div>
+
+					<div>
+			
+						<h2 id="clickableArea">Plus d'option</h2>
+
+					</div>
+
+					<div id="moreOptionArea" class="hidden">
+
+						<div>
+
+							<label for="dep">Département </label>
+							<input type="checkbox" name="dep" id="bouton1" class="checkBox" />
+							<input type="text" name="dep" id="textArea1" class="hidden textBox" />
+
+						</div>
+
+						<div>
+
+							<label for="address">Code Postal </label>
+							<input type="checkbox" name="address" id="bouton2" class="checkBox" />
+							<input type="text" name="address" id="textArea2" class="hidden textBox" />
+
+						</div>
+
+						<div>
+
+							<label for="radie">Est-elle radié ? (Si oui cochez la case) </label>
+							<input type="checkbox" name="radie" id="radiation" class="" />
+
+						</div>
+
+					</div>
+
+					<input type="submit" value="Valider" />
+
+				</form>
+
+			</div>
+
+			<div id="answerZone">
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,32 @@
+*{
+	cursor: default;
+}
+
+.withHeight{
+	height: 100%;
+}
+
+.noHeight{
+	height: 0px;
+}
+
+.hidden{
+	display: none;
+}
+
+.checkBox{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#clickableArea{
+	font-size: .8em;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#clickableArea:hover{
+	font-size: .81em;
+	color: lightblue;
+}
